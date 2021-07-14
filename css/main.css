@@ -1,0 +1,183 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+body{font-family: "Roboto",sans-serif;padding: 0;margin: 0;;}
+img{width: 100%;}
+.navbar{z-index:99999 ;position: fixed;width: 100%;padding: 0px 10px;    box-shadow: -1px -3px 33px 0px;}
+.nav-image-logo{    padding-left: 15px;}
+.navbar ul li a{padding: 0;}
+.navbar ul li{     font-size: 16px;
+    font-family: cursive;
+    color: #141517;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 35px 21px}
+    .dropdown-menu{border-top:3px solid #ff2020;border-radius: 7px ;padding: 17px ; }
+/* end nav */
+/* star homr */
+.home{background-color: #f0f0f2;overflow: hidden;}
+.home .row{justify-content: center;align-items: center;}
+.home .home-body h1{font-family: "Josefin Sans",sans-serif;color: #0b1c39;line-height: 1.2;font-weight: 700;line-height: 1.2;margin-bottom: 26px;font-size: 96px}
+.home .home-body p{font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 39px;
+    color: #212025;
+    margin-bottom: 60px;
+    padding-right: 50px;}
+.btn-home{background-color: #212025;    font-family: "Josefin Sans",sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+   ;padding: 11px 28px;border:0px;position: relative;overflow: hidden;z-index: 1;}
+.btn-home::before{
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;left: 0;top: 0
+    ;transition: .7s all;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;align-items: center;
+    }
+    .btn-home:hover::before{width: 100%;content: "shop now";
+   
+}
+
+
+ 
+
+   .image-home img{width: 65%;margin-left: 25%;}
+   
+   
+   /* end home */
+   /* start new arrival */
+   .newarrival{padding-top: 200px;
+    padding-bottom: 170px;overflow: hidden;}
+    .cont-body h2{    color: #000;
+        font-size: 48px;
+        line-height: 1;
+        font-family: "Josefin Sans";margin-bottom: 70px;text-transform: capitalize;}
+.cont-body .col-lg-4 .product1 h3{color: #444444;text-align: center;
+    font-size: 24px;
+    font-family: cursive;
+    margin-top: 15px;
+    font-weight: bold;}
+    .cont-body .col-lg-4 .product1 p  {color: #ff2020;font-size: 18px;font-weight: 500;text-align: center;}
+        .cont-body .col-lg-4 .product1 img{transition:all .4s;}
+.cont-body .col-lg-4 .product1 img:hover{transform:scale(1.04);}
+.cont-body .col-lg-4 .product1{margin-bottom: 100px;overflow: hidden;}
+.row .pro-12-5{overflow: hidden;}
+.row .pro-25{overflow: hidden;} 
+.row .pro-25 img{transition:all .4s;}
+ .row .pro-12-5 img {transition:all .4s;}
+ .row .pro-25 img:hover{transform:scale(1.04);}
+ .row .pro-12-5 img:hover{transform:scale(1.04);}
+ .row .pro-50{overflow: hidden;}
+ .row .pro-50 img{transition:all .4s;}
+ .row .pro-50 img:hover{transform:scale(1.04);}
+/* end new arrival */
+/* start popular item */
+.popularitem{margin-top:20%;    height: 1300px;position: relative;}
+.popularitem .pop-body{text-align: center;margin-bottom: 10%;}
+.popularitem .pop-prod h3{color: #444444;text-align: center;
+    font-size: 24px;
+    font-family: cursive;
+    margin-top: 15px;
+    font-weight: bold;}
+    .popularitem .pop-prod p{color: #ff2020;font-size: 18px;font-weight: 500;text-align: center;}
+    .popularitem .btn-pop{background: #ff2020;
+        font-family: "Josefin Sans",sans-serif;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+        padding: 30px 28px;
+        border-radius: 0px;
+        display: inline-block;
+        line-height: 0;
+        cursor: pointer;
+        margin-bottom: 0;
+        margin: 10px;
+        cursor: pointer;
+        transition: color 0.4s linear;
+        position: relative;
+        z-index: 1;
+        -moz-user-select: none;
+        border: 0;
+        overflow: hidden;
+        text-align: center;position: absolute;
+        left: 42%;
+        top: 90%;}
+        /* end popluar */
+        /* start video */
+        /* end video */
+        /* start watch of chocie */
+        .choiess{padding:200px 0 170px}
+        .choiess .row {justify-content: center;align-items: center;  }
+        .choiess .media-body h2{color: #000;
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 40px;font-family: "Josefin Sans",sans-serif;}
+        .choiess .media-body p {margin-bottom: 50px;
+                font-size: 17px;font-family: "Roboto",sans-serif;
+                color: #777;line-height: 30px;}
+        .choiess .media-body .btn-choiess {background: #ff2020;
+                    font-family: "Josefin Sans",sans-serif;
+                    text-transform: uppercase;
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 600;
+                    letter-spacing: 0.03em;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    border-radius: 0px;height: 60px;
+                    padding-bottom: 15px;
+                    padding-top: 15px;
+                    border: 0;}
+                    /* end watch */
+                    /* start securtiy */
+.security .container{background-color: #ea0000;color: white;}
+.security .container .col{padding: 43px 20px 43px 45px;}
+.security .container .body-sec h4{color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    font-family: "Roboto",sans-serif;}
+    .security .container .sec-icon{margin-bottom: 10px;
+        font-size: 30px;}
+        .security .container .body-sec p{font-size: 16px;
+            color: #d3d1d1;font-family: "Roboto",sans-serif;
+            line-height: 30px;
+            margin-bottom: 15px;
+            font-weight: normal;}
+/* end security */
+/* start footer */
+.footer{padding-top: 150px;
+    padding-bottom: 120px;}
+.footer p,li{color: #868c98;
+        font-size: 16px;
+        
+        line-height: 1.8;}
+        .footer ul{list-style: none;}
+.footer h3{color: #000;
+    font-size: 20px;
+    margin-bottom: 29px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: "Roboto",sans-serif;}
+    .footer li:hover{color: red;
+    transform: translateX(5px);
+transition: .5s all;}
+/* end */
+/* start social */
+.copyright{padding: 50px 20px 70px;}
+.social ul li {color:black;transition: .6s all;}
+.social ul li:hover{color:red;transform: rotatey(180deg);}
+.social ul li{padding: 20px;}
+.social ul{    margin-left: 50%;}
+span{color:red}
+.copy-right{width: 600px;}
